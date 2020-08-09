@@ -1,9 +1,9 @@
+*.swp
+*.swo
+*~
 *.log
-.DS_Store
-.idea
 node_modules
-themes/
-lib/
-
-# exceptions
-!.gitkeep
+*.env
+.DS_Store
+package-lock.json
+.bloggify/*

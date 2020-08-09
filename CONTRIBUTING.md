@@ -1,67 +1,64 @@
-# Contribute
+# :eight_spoked_asterisk: :stars: :sparkles: :dizzy: :star2: :star2: :sparkles: :dizzy: :star2: :star2: Contributing :star: :star2: :dizzy: :sparkles:  :star: :star2: :dizzy: :sparkles: :stars: :eight_spoked_asterisk:
 
-## Introduction
+So, you want to contribute to this project! That's awesome. However, before
+doing so, please read the following simple steps how to contribute. This will
+make the life easier and will avoid wasting time on things which are not
+requested. :sparkles:
 
-First, thank you for considering contributing to docsify! It's people like you that make the open source community such a great community! 😊
+## Discuss the changes before doing them
+ - First of all, open an issue in the repository, using the bug tracker ,
+   describing the contribution you would like to make, the bug you found or any
+   other ideas you have. This will help us to get you started on the right
+   foot.
 
-We welcome any type of contribution, not only code. You can help with 
-- **QA**: file bug reports, the more details you can give the better (e.g. screenshots with the console open)
-- **Marketing**: writing blog posts, howto's, printing stickers, ...
-- **Community**: presenting the project at meetups, organizing a dedicated meetup for the local community, ...
-- **Code**: take a look at the [open issues](issues). Even if you can't write code, commenting on them, showing that you care about a given issue matters. It helps us triage them.
-- **Money**: we welcome financial contributions in full transparency on our [open collective](https://opencollective.com/docsify).
+ - If it makes sense, add the platform and software information (e.g. operating
+   system, Node.JS version etc.), screenshots (so we can see what you are
+   seeing).
 
-## Your First Contribution
+ - It is recommended to wait for feedback before continuing to next steps.
+   However, if the issue is clear (e.g. a typo) and the fix is simple, you can
+   continue and fix it.
 
-Working on your first Pull Request? You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
+## Fixing issues
+ - Fork the project in your account and create a branch with your fix:
+   `some-great-feature` or `some-issue-fix`.
 
-## Submitting code
+ - Commit your changes in that branch, writing the code following the
+   [code style][2]. If the project contains tests (generally, the `test`
+   directory), you are encouraged to add a test as well. :memo:
 
-Any code change should be submitted as a pull request. The description should explain what the code does and give steps to execute it. The pull request should also contain tests.
+ - If the project contains a `package.json` or a `bower.json` file add yourself
+   in the `contributors` array (or `authors` in the case of `bower.json`;
+   if the array does not exist, create it):
 
-## Code review process
+   ```json
+   {
+      "contributors": [
+         "Your Name <and@email.address> (http://your.website)"
+      ]
+   }
+   ```
 
-The bigger the pull request, the longer it will take to review and merge. Try to break down large pull requests in smaller chunks that are easier to review and merge.
-It is also always helpful to have some context for your pull request. What was the purpose? Why does it matter to you?
+## Creating a pull request
 
-## Financial contributions
+ - Open a pull request, and reference the initial issue in the pull request
+   message (e.g. *fixes #<your-issue-number>*). Write a good description and
+   title, so everybody will know what is fixed/improved.
 
-We also welcome financial contributions in full transparency on our [open collective](https://opencollective.com/docsify).
-Anyone can file an expense. If the expense makes sense for the development of the community, it will be "merged" in the ledger of our open collective by the core contributors and the person who filed the expense will be reimbursed.
+ - If it makes sense, add screenshots, gifs etc., so it is easier to see what
+   is going on.
 
-## Questions
+## Wait for feedback
+Before accepting your contributions, we will review them. You may get feedback
+about what should be fixed in your modified code. If so, just keep committing
+in your branch and the pull request will be updated automatically.
 
-If you have any questions, create an [issue](issue) (protip: do a quick search first to see if someone else didn't ask the same question before!).
-You can also reach us at hello@docsify.opencollective.com.
+## Everyone is happy!
+Finally, your contributions will be merged, and everyone will be happy! :smile:
+Contributions are more than welcome!
 
-## Credits
-
-### Contributors
-
-Thank you to all the people who have already contributed to docsify!
-<a href="graphs/contributors"><img src="https://opencollective.com/docsify/contributors.svg?width=890" /></a>
-
-
-### Backers
-
-Thank you to all our backers! [[Become a backer](https://opencollective.com/docsify#backer)]
-
-<a href="https://opencollective.com/docsify#backers" target="_blank"><img src="https://opencollective.com/docsify/backers.svg?width=890"></a>
+Thanks! :sweat_smile:
 
 
-### Sponsors
 
-Thank you to all our sponsors! (please ask your company to also support this open source project by [becoming a sponsor](https://opencollective.com/docsify#sponsor))
-
-<a href="https://opencollective.com/docsify/sponsor/0/website" target="_blank"><img src="https://opencollective.com/docsify/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/docsify/sponsor/1/website" target="_blank"><img src="https://opencollective.com/docsify/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/docsify/sponsor/2/website" target="_blank"><img src="https://opencollective.com/docsify/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/docsify/sponsor/3/website" target="_blank"><img src="https://opencollective.com/docsify/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/docsify/sponsor/4/website" target="_blank"><img src="https://opencollective.com/docsify/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/docsify/sponsor/5/website" target="_blank"><img src="https://opencollective.com/docsify/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/docsify/sponsor/6/website" target="_blank"><img src="https://opencollective.com/docsify/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/docsify/sponsor/7/website" target="_blank"><img src="https://opencollective.com/docsify/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/docsify/sponsor/8/website" target="_blank"><img src="https://opencollective.com/docsify/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/docsify/sponsor/9/website" target="_blank"><img src="https://opencollective.com/docsify/sponsor/9/avatar.svg"></a>
-
-<!-- This `CONTRIBUTING.md` is based on @nayafia's template https://github.com/nayafia/contributing-template -->
+[2]: https://github.com/IonicaBizau/code-style
